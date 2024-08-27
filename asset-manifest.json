@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ChamaraDilshan/angle-selector-react/static/css/main.f855e6bc.css",
+    "main.js": "/ChamaraDilshan/angle-selector-react/static/js/main.ec4d69e6.js",
+    "static/js/453.41e50930.chunk.js": "/ChamaraDilshan/angle-selector-react/static/js/453.41e50930.chunk.js",
+    "index.html": "/ChamaraDilshan/angle-selector-react/index.html",
+    "main.f855e6bc.css.map": "/ChamaraDilshan/angle-selector-react/static/css/main.f855e6bc.css.map",
+    "main.ec4d69e6.js.map": "/ChamaraDilshan/angle-selector-react/static/js/main.ec4d69e6.js.map",
+    "453.41e50930.chunk.js.map": "/ChamaraDilshan/angle-selector-react/static/js/453.41e50930.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ec4d69e6.js"
+  ]
+}
