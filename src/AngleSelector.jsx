@@ -3,9 +3,13 @@ import React, { useState } from 'react';
 const AngleSelector = () => {
   const [angle, setAngle] = useState(0);
 
-  const updateAngle = (value) => {
-    const clampedValue = Math.max(0, Math.min(360, value));
-    setAngle(clampedValue);
+  const updateAngle = (newValue) => {
+    // Map the value into the range of 0 to 360 using modulo
+    newValue = newValue % 360;
+    if (newValue < 0) {
+      newValue += 360;
+    }
+    setAngle(newValue);
   };
 
   const handleInputChange = (e) => {
